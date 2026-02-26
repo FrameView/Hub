@@ -1,0 +1,138 @@
+{
+    "colors": {
+        "sky": "0x87CEEB",
+        "blue": "0x0000FF",
+        "white": "0xFFFFFF",
+        "black": "0x000000",
+        "purple": "0x7777FF",
+        "green": "0x2d5016",
+        "red": "0xFF0000",
+        "orange": "0xFFA500",
+        "gray": "0x808080",
+        "pink": "0xFFC0CB",
+        "yellow": "0xFFFF00",
+        "custom_rect_color": "0x222222",
+        "custom_text_color": "0xFFC1CC"
+    },
+    "groups": [
+        "UPDATES",
+        "CODING",
+        "GAMING",
+        "GENERAL",
+        "CUSTOM"
+    ],
+    "apps": [
+        {
+            "group": "UPDATES",
+            "text": "Check for updates",
+            "cmd": "konsole -e sudo apt update &",
+            "rect_color": "green",
+            "text_color": "white"
+        },
+        {
+            "group": "UPDATES",
+            "text": "Upgrade packages",
+            "cmd": "konsole -e sudo apt upgrade -y &",
+            "rect_color": "green",
+            "text_color": "white"
+        },
+        {
+            "group": "UPDATES",
+            "text": "Update RTX driver",
+            "cmd": "konsole -e sudo apt install --reinstall linux-headers-$(uname -r) dkms nvidia-driver nvidia-kernel-dkms nvidia-persistenced -y &",
+            "rect_color": "green",
+            "text_color": "white"
+        },
+        {
+            "group": "CODING",
+            "text": "Visual Studio Code",
+            "cmd": "code &",
+            "rect_color": "sky",
+            "text_color": "white"
+        },
+        {
+            "group": "CODING",
+            "text": "IntelliJ IDEA",
+            "cmd": "idea &",
+            "rect_color": "sky",
+            "text_color": "white"
+        },
+        {
+            "group": "CODING",
+            "text": "Terminal",
+            "cmd": "konsole &",
+            "rect_color": "black",
+            "text_color": "white"
+        },
+        {
+            "group": "GAMING",
+            "text": "Steam",
+            "cmd": "steam &",
+            "rect_color": "blue",
+            "text_color": "white"
+        },
+        {
+            "group": "GAMING",
+            "text": "Hytale",
+            "cmd": "hytale &",
+            "rect_color": "blue",
+            "text_color": "white"
+        },
+        {
+            "group": "GAMING",
+            "text": "Minecraft",
+            "cmd": "mc &",
+            "rect_color": "blue",
+            "text_color": "white"
+        },
+        {
+            "group": "GAMING",
+            "text": "Discord",
+            "cmd": "discord &",
+            "rect_color": "blue",
+            "text_color": "white"
+        },
+        {
+            "group": "GAMING",
+            "text": "Pixel Art",
+            "cmd": "pxlart &",
+            "rect_color": "blue",
+            "text_color": "white"
+        },
+        {
+            "group": "GENERAL",
+            "text": "File Manager",
+            "cmd": "dolphin &",
+            "rect_color": "purple",
+            "text_color": "white"
+        },
+        {
+            "group": "GENERAL",
+            "text": "Web Browser",
+            "cmd": "brave-browser &",
+            "rect_color": "purple",
+            "text_color": "white"
+        },
+        {
+            "group": "GENERAL",
+            "text": "Reboot",
+            "cmd": "konsole -e sudo reboot &",
+            "rect_color": "red",
+            "text_color": "white"
+        },
+        {
+            "group": "GENERAL",
+            "text": "Shutdown",
+            "cmd": "konsole -e sudo shutdown -h now &",
+            "rect_color": "red",
+            "text_color": "white"
+        },
+        {
+            "group": "CUSTOM",
+            "text": "Custom App",
+            "cmd": "custom_command",
+            "rect_color": "custom_rect_color",
+            "text_color": "custom_text_color"
+        }
+    ]
+}
