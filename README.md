@@ -22,5 +22,4 @@ $ cd /hub_folder && ./hub
 
 Make sure to run the hub inside the same folder as the json file!
 
-[Example]
-![Hub Screenshot](./screenshot.png)
+
