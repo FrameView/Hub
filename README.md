@@ -1,10 +1,10 @@
 # Hub
 
-[Latest update] 
+[Features] 
 
-You can now add custom colors, groups and apps, simply modify the userconfig.json! 
+-> Add custom colors, groups and apps : simply modify the userconfig.json! 
 
-Feel free to delete the apps you don't need!
+-> Switch between dark and light mode as needed!
 
 [Build]
 
@@ -22,4 +22,8 @@ $ cd /hub_folder && ./hub
 
 Make sure to run the hub inside the same folder as the json file!
 
+[Dark Mode Preview]
+![Dark Mode](./darkmode.png)
 
+[Light Mode Preview]
+![Light Mode](./lightmode.png)
